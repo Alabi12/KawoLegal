@@ -1,0 +1,326 @@
+
+/*.....................................STARTUPS PAGE..................................*/
+
+ *{
+    margin:0;
+    padding: 0;
+  }
+
+html, body {
+    font-family: 'Roboto', 'Raleway' sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    color: #333;
+    background: white;
+    margin-bottom: 20%;
+    opacity: 1.0
+    
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143
+    }
+
+ .navbar {
+    background: transparent;
+    color: #D14233;
+    padding:0;
+    min-height: 0;
+    height: 110px;
+    position: relative;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border-color: 0px;  
+    border: none;  
+    box-shadow: 0px;
+    z-index: 1100
+  }
+
+   .navbar-brand img {
+  	display: block;
+  	vertical-align: middle;
+  	width: 300px;
+    aspect-ratio: auto 200 / 90;
+    height: 90px;
+    padding-left:100px; 
+  }
+
+  .nav > li > a { 
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color:  #8a8281;
+    cursor: pointer;
+
+ }
+
+.navbar-nav > li > a {
+    padding-top: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right:50px;
+    }
+
+.navbar-default {
+    background-color: rgb(59, 12, 12);
+    border-color: #f5f5f5;
+}
+
+.thumbnail {
+    border: none; 
+    background-color: none;
+}
+
+h3 {
+ color: red;
+
+}
+
+button {
+    background-color: #E6EDF2;
+    color: white;
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1px;
+}
+
+/* Style all font awesome icons*/
+.social-links {
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+.footer a {
+    position: absolute;
+    center: 40%;
+    transform: translate(30%,-520%);
+   
+    
+}
+ 
+.footer li {
+    list-style: none;
+    margin: 40px 20px;
+    display: block;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 50%;
+    transition: .5s;
+    float: right;
+}
+
+
+/*..........................................REGISTER.............................................*/
+.row1{
+
+    padding-left: 30%;
+    padding-right: 20%;
+}
+
+.register {
+    padding-right:15%;
+    padding-left: 25%;
+    padding-bottom: 10%;
+}
+
+
+
+/*............................................HOME PAGE.............................................*/
+
+.background {
+    background-blend-mode: overlay;
+    background-color: #2d090a;
+    background-image: url("../images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+  }
+
+.main-content {
+    padding-bottom: 250px;
+}
+
+.main-nav {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: rgb(189, 8, 8)
+}
+
+a.active {
+    border: 1px solid rgb(173, 3, 3);
+}
+
+li#active {
+    border-bottom: 1px solid #7A292A;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 120px;
+    color: white;
+    font-size: 40px;
+}
+
+.main {
+    color: white;
+    font-size: 20px;
+}
+
+.main-home-button {
+    color: white;
+}
+
+.main-home-button :hover {
+    color: rgb(190, 231, 8);
+    text-decoration: none;
+}
+
+.cleanfooter {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(62, 2, 2);
+    color: rgb(189, 8, 8);
+}
+
+.second {
+    color: white;
+    padding-left: 100px;
+}
+
+.mainp>p>a {
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.alignbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.social {
+    padding-left: 450px;
+}
+
+
+
+/*-------------------------HOME PAGE------------------------*/
+
+.Background {
+  background-blend-mode: overlay;
+  background-color: #7A292A;
+
+}
+
+
+ /*.jumbotron {
+  overflow: auto;
+ text-align: center;
+ margin-top: 0px;
+ padding-top: 0px;
+
+}
+
+.jumbotron img {
+  background: rgb(59, 12, 12);
+  position: absolute;
+  object-fit: cover;
+  overflow: hidden;
+  width: 50%;
+  top: 0;
+  left: 0
+ }
+
+*/
+
+footer
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer ul
+{
+    padding: 0px;
+    list-style: none;
+    margin: 20px;
+}
+
+footer ul li
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+footer ul li a span
+{
+    width: 50px;
+    height: 50px;
+    background: #42484C;
+    display: block;
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+footer .copyright
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+    display: block;
+}
